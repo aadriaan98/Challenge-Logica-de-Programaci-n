@@ -1,0 +1,76 @@
+*{ 
+    background-color:black;
+}
+.h1{
+    margin-left: 500px;
+    margin-top: 40px;
+    font-size: 35px;
+    color:lime;
+    z-index: 1;
+}
+.main{
+    margin-top: 100px;
+}
+.seccion-formulario{
+    margin-left: 150px;
+    z-index: 2;
+    margin-top: 60px;
+}
+.titulo-encriptar{
+    color: lime;
+    font-size: 25px
+}
+.input-encriptar{
+    border-radius: 0.5rem;
+    border-color: lime;
+    padding: 10px;
+    width: 250px;
+    background-color: lime;
+}
+.botones{
+    margin-top: 30px;
+}
+.button-encriptar{
+    border-radius: 0.5rem;
+    color: lime;
+    background-color: black;
+    border-color: lime;
+    padding: 10px;
+
+}
+.button-desencriptar{
+    border-radius: 0.5rem;
+    color:lime;
+    background-color: black;
+    margin-left: 40px;
+    border-color: lime;
+    padding: 10px;
+}
+.seccion-mensaje{
+    margin-left: 750px;
+    margin-top: -160px;
+    z-index: 2;
+}
+.titulo-mensaje{
+    color: lime;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.input-mensaje{
+    border-radius: 0.5rem;
+    border-color: lime;
+    padding: 10px;
+    width: 250px;
+    background-color: lime;
+}
+.button-copiar{
+    border-radius: 0.5rem;
+    color:lime;
+    background: black;
+    margin-top: 30px;
+    border-color: lime;
+    padding: 10px;
+}
+.boton-copiar{
+    margin-top: 1px;
+}

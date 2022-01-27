@@ -6,8 +6,8 @@ var botonDesencriptar = document.getElementById("button-desencriptar");
 function encriptar(){
     texto = inputTexto.value
     textoEncriptado = texto.replaceAll('e', 'enter')
-                           .replaceAll('a', 'ai')
                            .replaceAll('i', 'imes')
+                           .replaceAll('a', 'ai')
                            .replaceAll('o', 'ober')
                            .replaceAll('u', 'ufat');
 inputMensaje.value = textoEncriptado;
@@ -18,10 +18,10 @@ botonEncriptar.onclick = encriptar;
 function desencriptar(){
     texto = inputTexto.value;
     textoDesencriptado = texto.replaceAll('enter', 'e')
-                                      .replaceAll('ai', 'a')
-                                      .replaceAll('imes', 'i')
-                                      .replaceAll('ober', 'o')
-                                      .replaceAll('ufat', 'uf');
+                              .replaceAll('imes', 'i')
+                              .replaceAll('ai', 'a')
+                              .replaceAll('ober', 'o')
+                              .replaceAll('ufat', 'uf');
 inputMensaje.value = textoDesencriptado;
 inputTexto.value = "";  
 }

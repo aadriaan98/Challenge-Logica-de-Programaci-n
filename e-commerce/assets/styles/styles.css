@@ -1,0 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    animation-duration: 1000ms;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}

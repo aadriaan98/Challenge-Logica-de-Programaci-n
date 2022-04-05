@@ -1,0 +1,77 @@
+.seccion-contacto{
+    width: 100%;
+    height: 600px;
+    background-color: #EAF2FD;
+    margin-top: 38rem;
+    padding-top: 2rem;
+}
+.bloque-info_logo{
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.bloque-info_logo b{
+    color: #2A7AE4;
+}
+.bloque-info_logo h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #464646;
+}
+.bloque-logo_politicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.bloque-logo_politicas a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding: .5rem;
+}
+/*Formulario*/
+.bloque-formulario{
+    width: 100%;
+}
+.bloque-formulario h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color:#464646;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.bloque-formulario .formulario{
+    padding-left: 1rem;
+}
+.grupo-formulario{
+    margin-top:.5rem;
+}
+.grupo-input input{
+    width: 328px;
+    height: 56px;
+    border: none;
+    background-color: #ffffff;
+}
+.grupo-button{
+    margin-top: 1rem;
+}
+.grupo-button button{
+    color: #ffffff;
+    margin-right: 1rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    background: #2A7AE4;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
